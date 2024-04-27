@@ -19,10 +19,11 @@
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    font-weight: 950;
+    font-weight: 550;
     background-color:black;
     color: white;
     padding: 0 15px 0 15px;
+    cursor: pointer;
  
 
 
@@ -40,6 +41,7 @@ display: flex;
     list-style: none;
     margin-top: 0;
     display: flex;
+    cursor: pointer;
     }
     .topbarli{
         margin-right: 20px;
