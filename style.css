@@ -1,0 +1,46 @@
+.topbar{
+
+    width: 100%;
+
+}
+.topbarWrapper{
+    display: flex;
+    margin-top: 20px;
+
+
+}
+.leftSide{
+    display: flex;
+  justify-content: center;
+    flex: 5;
+}
+.leftTopfont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 950;
+    background-color:black;
+    color: white;
+    padding: 0 15px 0 15px;
+ 
+
+
+}
+.rightSide{
+    display: flex;
+    justify-content: center;
+    flex: 7;
+}
+.topRight{
+
+display: flex;
+}
+.topUl{
+    list-style: none;
+    margin-top: 0;
+    display: flex;
+    }
+    .topbarli{
+        margin-right: 20px;
+    }
