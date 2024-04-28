@@ -31,7 +31,7 @@
 .rightSide{
     display: flex;
     justify-content: center;
-    flex: 7;
+    flex: 5;
 }
 .topRight{
 
@@ -51,4 +51,21 @@ display: flex;
         width: 100%;
         object-fit: cover;
         
+    }
+    .about{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* 全体の並びは一番外側のタグで行う */
+    .aboutWrapper{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutText{
+        display: flex;
+        flex-direction: row;
     }
