@@ -46,3 +46,9 @@ display: flex;
     .topbarli{
         margin-right: 20px;
     }
+    .mainImg{
+        margin-top: 10px;
+        width: 100%;
+        object-fit: cover;
+        
+    }
