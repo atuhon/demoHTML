@@ -65,7 +65,64 @@ display: flex;
         justify-content: center;
         align-items: center;
     }
-    .aboutText{
+
+    .aboutImg{
+        align-items: center;
+    
         display: flex;
-        flex-direction: row;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .self-introduction{
+        display: flex;
+        margin-right: 190px;
+
+    }
+    .aboutText{
+        margin-left: 50px;
+        font-size: 20px;
+
+    }
+    .aboutName{
+        margin: 0;
+    }
+    .aboutTitle{
+        font-size: 50px
+    }
+    .bicycle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .bicycleWrapper{
+        margin-top: 30px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .bicycleImgs{
+        justify-content: center;
+        display: flex;
+    }
+    .bicycleImg{
+        width: 100%;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+    .bicycleTitle{
+        font-size: 50px;
+    }
+    .content{
+        margin-right: 40px;
+
+    }
+    .ImgText{
+        text-align: center;
+    }
+    .bicycletitle{
+        font-size: 30px;
+        margin-bottom: 10px;
     }
