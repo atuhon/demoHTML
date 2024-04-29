@@ -1,0 +1,34 @@
+html{
+    font-size: 100%;
+    background-color: rgb(196, 199, 201);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    max-width: 1900px;   
+}
+main{
+    margin-top: 30px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: decimal;
+    justify-content: center;
+    align-items: center;
+}
+.headerName{
+    font-size: 20px;
+
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+.indexContent{
+    background-color: white;
+}
