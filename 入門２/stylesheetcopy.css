@@ -1,0 +1,28 @@
+
+img{
+    max-width: 100%;
+    /* 今回はcontainerのmax-widthに合わせる事になる */
+}
+.container{
+    max-width: 1000px;
+    /* max-widthで横幅を揃えることができる
+    これがないと横幅がそろわない
+      */
+    margin: 0 auto;
+    /* ブロック要素での横真ん中そろえ→ margin: 0 auto;*/
+
+}
+#mainvisual{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#header{
+    margin-top: 60px;
+}
+#header .site-title{
+    width: 160px;
+    line-height: 1px;
+    margin-bottom: 15px;
+}
+
