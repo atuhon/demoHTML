@@ -3,6 +3,18 @@ img{
     max-width: 100%;
     /* 今回はcontainerのmax-widthに合わせる事になる */
 }
+.sectionTitle{
+    font-size: 1.15rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* タイトルのフォントなどは共通化するためここで定義した */
+}
+.inner{
+    max-width: 600px;
+    margin: 0 auto;
+    /* 各コンテンツの最大幅と真ん中にする */
+
+}
 .container{
     max-width: 1000px;
     /* max-widthで横幅を揃えることができる
@@ -25,4 +37,61 @@ img{
     line-height: 1px;
     margin-bottom: 15px;
 }
+#index{
+    background-color: #fff;
+    padding: 30px 0;
+    /* 上下　左右 */
+    margin-bottom: 60px;
+}
+#index .indexList{
+    margin-left: 20px;
+
+}
+#index .indexList li{
+    margin-bottom: 20px;
+
+}
+#index .indexList li:last-child{
+    margin-bottom: 0;
+}
+/* last-child→最終行のみmargin-bottomを0にする */
+#detail{
+    margin-bottom: 100px;
+}
+#detail .content{
+    display: flex;
+    align-items: flex-start;
+    /* content→imgとtextを横並びにする */
+}
+#detail .content .title{
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+#detail .content .img{
+    width: 270px;
+    margin-right: 60px;
+    /* 
+    widthを制限する事で横並びの際にもう片方とのバランスをとる */
+}
+#detail .content text p{
+    margin-bottom: 20px;
+}
+#detail .content dl{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap→フレックスアイテムを単一列か複数列に折り返すかを許可する */
+    padding: 16px 0;
+    margin-bottom: 25px;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    /* border-top border-bottomで罫線を引く */
+}
+#detail .content dt{
+    width: 25%;
+}
+#detail .content dd{
+    width: 75%;
+}
+
+
 
