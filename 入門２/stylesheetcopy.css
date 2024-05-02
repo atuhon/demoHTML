@@ -21,7 +21,10 @@ img{
     これがないと横幅がそろわない
       */
     margin: 0 auto;
-    /* ブロック要素での横真ん中そろえ→ margin: 0 auto;*/
+    /* 
+    ブロック要素での横真ん中そろえ→ margin: 0 auto;
+    →display:flex;は使えない場合にする
+    */
 
 }
 #mainvisual{

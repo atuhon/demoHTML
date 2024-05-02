@@ -4,62 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
   </head>
   <body>
-    <main>
-      <div class="headerName">PHOTOBOOK</div>
-      <div class="mainImg">
-        <img src="../入門２/img (1)/img/mainvisual.jpg" alt="" />
-      </div>
-      <div class="indexContent">
-        <h2 class="indexTitle">Index</h2>
-        <ul class="indexUl">
-            <li>タイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトル</li>
-        </ul>
-      </div>
-      <div class="detailContent">
-        <div class="leftDetail">
-          <div class="leftDetailContent">
-            <h4 class="detailh4">Detail</h4>     
-            <img src="./img (1)/img/detail.jpg" alt="" class="detailImg">
+    <header class="header">
+      <div>PHOTO BOOK</div>
+    </header>
+    <main class="main">
+      <section id="main-visual">
+        <img src="./img (1)/img/mainvisual.jpg" alt="" class="mainImg" />
+      </section>
+      <section id="section" class="section-index">
+        <div class="indexMain">
+          <h2 id="index" class="title">INDEX</h2>
+          <ol class="indexOl">
+            <li>
+              タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+            </li>
+            <li>
+              タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+            </li>
+            <li>
+              タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+            </li>
+            <li>
+              タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+            </li>
+            <li>
+              タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section id="section">
+        <div class="detailMain">
+          <h2 class="title">DETAIL</h2>
+          <div class="detailWrapper">
+            <img src="./img (1)/img/detail.jpg" alt="" class="detailImg" />
+            <div class="desc">
+             
+                <p class="test">テストテスト</p>
+                <dl class="dl">
+                <dt>著者</dt>
+                <dd>テスト説明テスト説明</dd>
+                <dt>出版社</dt>
+                <dd>テスト説明テスト説明</dd>
+                <dt>発行年</dt>
+                <dd>テスト説明テスト説明</dd>
+              </dl>
+              <p>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
+              <a href="#">オンラインストアを見る</a>
+
+            </div>
           </div>
         </div>
-
-        <div class="rightDetailContent">
-          <div class="rightText">
-          <h4 class="detailh4">タイトルタイトルタイトル</h4>
-          <hr></hr>
-          <ul class="detailUl">
-            <li class="detailLi">著者
-              texttexttexttexttexttext
-            </li>
-            <li class="detailLi">出版社
-              texttexttexttexttexttext
-            </li>
-            <li class="detailLi">発行年
-              texttexttexttexttexttext
-            </li>      
-            <hr></hr>
-           <li>texttexttexttexttexttext <br>
-            texttexttexttexttexttext <br>
-            texttexttexttexttexttext <br>
-          </li> 
-          </ul>
-            <div class="detailOnline">
-            <a href="" class="detailOnline">オンラインストアで見る</a>
-            </div>
-
-
-        </div>
- 
-        </div>
-      </div>
-
+      </section>
     </main>
   </body>
 </html>
