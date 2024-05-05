@@ -21,10 +21,28 @@ body{
 img{
     max-width: 100%;
 }
-/* ulを使用していた */
+/* ulを使用していたため追加
+    ul{
+        list-style:none;
+
+    }
+*/
 header{
     margin-top: 30px;
 }
+/* 
+#header{
+    max-width:1080px;
+}
+*/
+/* 
+.inner{
+    main以下の800px部分をまとめる役割で.innerタグが設置されていた
+    このタグでindex~detailを囲む事と中の要素の幅を指定できる
+}
+*/
+
+
 #index{
     margin: 0 auto;
     max-width: 800px;
@@ -32,6 +50,9 @@ header{
     background-color: rgb(209, 205, 205);
     margin-top: 50px;
     margin-bottom: 50px;
+    /* 
+
+     */
 
 
 }
@@ -52,6 +73,8 @@ header{
 
 }
 .index-ol{
+    display: table;
+    margin: 0 auto ;
     padding:20px 200px ;
     border: solid 1px black;
 }
@@ -135,6 +158,12 @@ a{
        基準したい親要素の指定→position: relative;
        子要素の指定→position: absolute;
        bottom: 0;で要素最下部に寄せることができる */
+}
+@media screen and(max-width:1024px){
+    .inner{
+        padding: 30px;
+    }
+    
 }
 
 
