@@ -89,14 +89,7 @@ bottomは下ぞろえにする（imgはインライン要素のため隙間が�
      */
 
 }
-.mainBottom{
 
-}
-
-.button{
-    font-size: 13px;
-    /* タグ内全体にリンクを貼る */
-}
 #footer{
     font-size: 0.75rem;
     /* rem→HTMLのルート要素のfont-sizeを基準とする単位 */
@@ -104,10 +97,7 @@ bottomは下ぞろえにする（imgはインライン要素のため隙間が�
     text-align: center;
 
 }
-.footer{
 
-
-}
 .footerLink{
     margin-bottom: 20px;
 
@@ -126,8 +116,6 @@ bottomは下ぞろえにする（imgはインライン要素のため隙間が�
 }
 .copyright{
     margin-top: 10px;
-
-
 }
 
 
