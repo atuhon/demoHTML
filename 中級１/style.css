@@ -1,0 +1,10 @@
+header{
+    display:flex;
+    position:fixed;
+    /* 場所を固定する */
+}
+ul{
+    list-style:none;
+    display: flex;
+
+}
