@@ -1,0 +1,103 @@
+
+html{
+    max-width: 100%;
+    font-size: 100%;
+}
+body{
+    font-size: 0.9rem;
+}
+ul{
+    list-style: none;
+
+}
+
+a{
+    color: inherit;
+    /* 親要素を継承する */
+    text-decoration: none;
+}
+h2{
+    text-decoration: underline;
+    /* 下線を引く */
+}
+.wrapper{
+/* メインコンテンツの大きさをそろえる */
+    max-width: 960px;
+    padding:  0 4%;
+    margin-bottom: 100px;
+}
+
+#header{
+margin: 0 auto ;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sitetitle{
+    padding: 10px 0;
+}
+.sitetitle img{
+
+    display: block;
+    width: 120px;
+    height: 40px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 10px 0;
+    display: flex;
+}
+nav ul li{
+    margin-left: 30px;
+}
+#mainvisual {
+    margin-bottom: 80px;
+}
+#mainvisual img{
+    width: 100%;
+}
+
+.content{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.content img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.content-title{
+    margin: 10px 0;
+}
+
+section ul {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+section ul li{
+
+
+    text-align: center;
+
+
+
+
+}
+section ul li img{    
+    width: 220px;
+    height:146px;
+
+
+}
