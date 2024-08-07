@@ -1,10 +1,22 @@
-header{
-    display:flex;
-    position:fixed;
-    /* 場所を固定する */
-}
-ul{
-    list-style:none;
-    display: flex;
+@keyframes anime{
+    0%{
+        opacity: 0;
 
+    }
+    100%{
+    opacity: 1;
+    }
+}
+.fadein{
+    animation-name: anime;
+    animation-duration: e;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+
+
+
+}
+.menu{
+    opacity: 0;
 }

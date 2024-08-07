@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header id="header">
-        <h1 class="site-title wrapper">
-         <a href="">  <img src="./img/logo.svg" alt=""></a> 
-        </h1>
-    <nav id="navi">
-        <ul class="wrapper">
-            <li><a href="#">NEW</a></li>
-            <li><a href="#">COLUMN</a></li>
-            <li><a href="#">SERIES</a></li>
-            <li><a href="#">Q &amp;A</a></li>
-            <li><a href="#">CONTACT</a></li>
-        </ul>
-    </nav>
-</header>
-
+    <div class="main">メインメニュー
+    <ul class="menu">
+        <li>挨拶</li>
+        <li>お問い合わせ</li>
+    </ul>
+</div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script>
     
+    $(".main").on("click",()=>{
+        
+    $(".menu").addClass("fadein");
+    })
+    
+    
+
+</script>
+
 </body>
+
 </html>
